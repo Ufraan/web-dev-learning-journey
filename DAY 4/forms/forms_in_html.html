@@ -1,0 +1,60 @@
+<!-- forms are used to collect data from the user -->
+<!-- 
+
+  SYNTAX:
+  <form>
+    form content
+  </form>
+
+  ----------------------------------------------------------------------------------------------------------
+
+  Action attribute:
+  action attribute is used to define what action needs to be performed when a form is submitted or where
+  the form data should be sent.
+
+  <form action="/action.php">
+  
+  <form action="/action">
+
+  
+  Form input elements:
+  - used to create multiple form controls.
+  - there are multiple types of inputs that can be created using type attribute.
+    - syntax: 
+    <input type="text">
+    OR
+    <input type="number">
+    OR
+    <input type="password">
+    OR 
+    <input type="time">
+
+
+ -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML</title>
+  </head>
+  <body>
+    <form action="/action.php">
+      Username
+      <input type="text" />
+      <br>
+      Password
+      <input type="password" />
+      <br>
+      number 
+      <input type="number" />
+      <br>
+      time 
+      <input type="time" />
+      <br>
+      Color
+      <input type="color" />
+    </form>
+  </body>
+ </html>

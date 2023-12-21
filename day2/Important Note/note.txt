@@ -1,3 +1,0 @@
-use this for dev resources --> https://developer.mozilla.org/
-
-HTML is not case-sensitive. but lower-case is preferred because javascript/(most programming languages) is case-sensitive.

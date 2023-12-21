@@ -1,0 +1,58 @@
+<!-- 
+  NAME ATTRIBUTE:
+  Name of the form control. submitted with the form  as a part of the name/value pair.
+
+  syntax:
+  <input type="text" placeholder="Enter Name" id="username" name="username"/>
+ 
+  in this, this line -> name = "username" ; it is like global declaration in C
+  like int a = 10; in this name = "a"; and "username" is the value of a i.e. 10
+
+-->
+
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input using buttons in HTML</title>
+  </head>
+  <body>
+    <form action="/server">
+      
+      <div>
+        <label for="username">Username : </label>
+        <input 
+          type="text"
+          placeholder="Enter Username"
+          id="username"
+          name="user"
+          />
+      </div>
+        
+      
+      
+      <div>
+        <label for="password">Password : </label>
+        <input 
+          type="password"
+          placeholder="Enter Password"
+          id="password"
+          name="pass"
+          />
+      </div>
+      <!-- sensitive data can be eneterd in this -->
+      <button>Submit</button>
+    </form>
+    
+    <hr>
+    
+    <form action="https://www.youtube.com/results" method="get">
+      <label for="search_query">Search in YouTube:</label>
+      <input type="text" id="search_query" name="search_query" placeholder="Enter your search query" />
+      <button type="submit">Search</button>
+    </form>
+  
+    </form>
+  </body>
+ </html>

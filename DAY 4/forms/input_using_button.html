@@ -1,0 +1,41 @@
+
+ <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input using buttons in HTML</title>
+  </head>
+  <body>
+    <button type="submit">Hello</button>
+    <form action="/server">
+      
+      <div>
+        <label for="username">Username : </label>
+        <input type="text" placeholder="Enter Username" id="username"/>
+      </div>
+        
+      
+      
+      <div>
+        <label for="password">Password : </label>
+        <input type="password" placeholder="Enter Password" id="password"/>
+      </div>
+      <!-- sensitive data can be eneterd in this -->
+        
+
+      <div>
+        <label for="age">Age : </label>
+        <input type="number" placeholder="Enter Age" id="age"/>
+      </div>
+      <!-- only number values can be added in age -->
+
+      <button>Submit</button>
+      <button type="reset">reset</button>
+      <!-- resets the information in the form to the default -->
+      <br>
+      <input type="button" value="click me"/>
+      <input type="submit" value="clickme b2" />
+      <!-- this above input will not work mostly so not advised to used this. -->
+    </form>
+  </body>
+ </html>
