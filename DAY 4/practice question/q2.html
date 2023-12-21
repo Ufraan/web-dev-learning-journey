@@ -6,9 +6,32 @@
   <title>q2</title>
 </head>
 <body>
-  <h1>Registration Form</h1>
-  <br>
-  <input type="text" for="first_name">
-  <label for="first_name" placeholder="First Name"></label>
+  <form action="/server">
+    <h1>Registration Form</h1>
+    <br>
+    <div>
+      <input type="text" for="first_name"placeholder="First Name">
+      <label for="first_name"></label>
+      <input type="text" for="second_name" placeholder="Last Name">
+      <label for="second_name"></label>
+    </div>
+
+    <div>
+      Please select your gender
+      <select name="gender" id="gender">
+        <option>Male</option>
+        <option>Female</option>
+      </select>
+    </div>
+
+    <div>
+      Do you agree to all terms of service?
+      <input type="checkbox" for="terms" id="terms" name="terms" checked />
+      <label>Yes, I agree</label>
+    </div>
+
+    <button>Register</button>
+  </form>
+</body>
 </body>
 </html>
