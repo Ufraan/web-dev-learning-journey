@@ -1,0 +1,62 @@
+<!-- 
+  <label for="volume">
+    Volume
+  </label>
+
+  
+ -->
+
+ <!-- in radio button, only 1 can be selected unlike checkbox -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>dropdown</title>
+ </head>
+ <body>
+ 
+   <form action="/server">
+       <div>
+         <input type="radio" name="fruit" id="apple" value="apple">
+         <label for="apple">apple</label>
+         <input type="radio" name="fruit" id="banana" value="banana">
+         <label for="banana">banana</label>
+         <input type="radio" name="fruit" id="mango" value="mango">
+         <label for="mango">mango</label>
+       </div>
+ 
+       <!-- grouping chekboxes: -->
+       <br>
+       <div>
+         Choose your subjects:
+         <input type="checkbox" id="math" name="sub" value="math" checked />
+         <label for="math">math</label>
+         <input type="checkbox" id="science" name="sub" value="science" />
+         <label for="science">science</label>
+         <input type="checkbox" id="english" name="sub" value="english" />
+         <label for="english">english</label>
+       </div>
+ 
+       <div>
+         Choose your profession:
+         <select name="profession" id="profession">
+           <option>Select your option</option>
+           <option value="stu">Student</option>
+           <option value="dev" selected>Developer</option>
+         </select>
+       </div>
+ 
+       <label for="vol">Select your volume level : </label>
+       <input type="range" id="vol" min="0" max="100" name="volume" step="10" value="50">
+       
+
+       <br>
+       
+        <label for="feedback">Please give your valuable feedback</label>
+        <textarea for="feedback" name="feedback"></textarea>
+       <button>submit</button>
+   </form>
+ </body>
+ </html>
