@@ -1,0 +1,142 @@
+/* Please ❤ this if you like it! */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.7;
+    color: #c4c3ca;
+    background-color: #1f2029;
+    margin: 0;
+}
+
+#root {
+    text-align: center;
+    padding: 50px; /* Add padding to the top */
+    box-sizing: border-box;
+}
+
+/* Add the following CSS to center-align the form within #root */
+#root > * {
+    margin-bottom: 20px; /* Increase the margin between lines */
+}
+
+/* Add the following CSS to style the select element with the custom class */
+.custom-dropdown {
+  width: auto;
+  max-width: 100%; /* Adjust the max-width if needed */
+  box-sizing: border-box;
+}
+
+#address_frame,
+.form-group {
+    width: 100%;
+    max-width: 400px; /* Adjust the max-width as needed */
+    margin: 0 auto;
+}
+
+.checkbox-group {
+  display: inline-block;
+  margin-left: 10px; /* Adjust the margin as needed */
+}
+
+.checkbox-group input[type="checkbox"] {
+  margin-right: 5px; /* Adjust the margin as needed */
+}
+
+/* Additional styling for the form elements */
+h1 {
+    color: #ffeba7;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px; /* Increase the margin between label and input */
+    color: #ffeba7;
+}
+
+#pin {
+  max-width: 10ch; /* Adjust the value as needed */
+  width: 100%; /* To make sure it is responsive */
+}
+
+/* Add margin to the top of each section */
+.form-group,
+#address_frame,
+button,
+#trademark {
+    margin-top: 30px; /* Increase the margin between sections */
+}
+
+/* Adjust the margin-bottom for the Source of Income label */
+label[for="income_source"] {
+    margin-bottom: 10px; /* You can adjust this value as needed */
+}
+
+
+/* Set the width of the income_source dropdown to fit the content */
+#income_source {
+  width: auto;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* Add margin between the checkbox and the DigitalHub Address label */
+#address_frame input[type="checkbox"] {
+    margin-bottom: 15px; /* Increase the margin between checkbox and label */
+}
+
+/* Center-align text within the button */
+button {
+  text-align: center;
+}
+
+/* Center-align the trademark text */
+#trademark {
+  text-align: center;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px; /* Increase the margin between input elements */
+    box-sizing: border-box;
+    background-color: #1f2029;
+    color: #c4c3ca;
+    border: 1px solid #555;
+    border-radius: 4px;
+    outline: none;
+}
+
+button {
+  width: auto; /* Set width to auto to fit the content */
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #ffeba7;
+  color: #102770;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+}
+
+
+button:hover {
+    background-color: #102770;
+    color: #ffeba7;
+}
+#dob {
+  width: auto; /* Set the width to auto */
+  max-width: 100%;
+  padding: 10px;
+  margin-bottom: 15px; /* Increase the margin between input elements */
+  box-sizing: border-box;
+  background-color: #1f2029;
+  color: #c4c3ca;
+  border: 1px solid #555;
+  border-radius: 4px;
+  outline: none;
+}
