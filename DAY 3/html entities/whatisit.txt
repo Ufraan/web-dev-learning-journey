@@ -1,0 +1,19 @@
+HTML ENTITIES
+
+an html entity is a piece of text ("string") that being with an ampersand(&) and ends with a semicolon(;).
+
+used to display reserved characters (which wouldotherwise be interpreted as HTML code), and invisible characters (like non-breaking spaces).
+
+can also use in place of characters that are difficult to type with a standard keybaord
+
+browser interprets them and reders correct characters
+
+
+example - for less than (<) we use &lt;
+example - for greater than (>) we use &gt;
+example - for space ( ) we use &ngsp;
+example - for ampersand (&) we use &amp;
+example - for double quotes (") we use &quot;
+example - for a heart (cannot be printed by a normal keybaord, other examples sun, arrow, cloud, etc.)
+we use &hearts;
+

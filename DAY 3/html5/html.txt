@@ -1,0 +1,6 @@
+How HTML works?
+
+HTML standard:
+- HTML Standard is a document that tells to the browser how HTML should work.
+- can be said as living standard because it is updatable as time goes by.
+

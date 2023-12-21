@@ -1,0 +1,10 @@
+The term HTML5 is essentially a buzzword that refers to a 
+set of modern web technologies. This includes the HTML Living
+Standar, along with JavaScript APIs to enhance storage, multimedia
+and hardware access.
+
+HTML5 means
+  1. new features /  new upgrades.
+  2. HTML5 offers other stuff related to media which are not present in basic HTML.
+
+  
