@@ -1,0 +1,2 @@
+<!-- writing css in a separate document and linking it with html file -->
+<!-- refer style_tag.html for reference -->

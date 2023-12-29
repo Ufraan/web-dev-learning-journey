@@ -1,0 +1,25 @@
+1. named colors.
+example - color = black;
+
+it means directly using the name of the color.
+
+each browser recognizes around 140-150 named colors (ex- red, blue, pink, purple, etc.)
+
+
+2. rgb values.
+example - color = rgb(0, 0, 0);
+
+red is rgb(255, 0, 0)
+black is rgb(0, 0, 0)
+blue is rgb(0, 0, 255)
+yellow is rgb(255, 255, 0)
+
+
+3. hexadecimal or hex code values.
+example - color = #FFFFFF;
+
+6 digit codes are used.
+in this, the first two letters represent red, next two represent green, next two represent blue. (similar to rgb but more complex and deeper)
+
+
+Letters used are : 0 1 2 3 4 5 6 7 8 9 A B C D E F

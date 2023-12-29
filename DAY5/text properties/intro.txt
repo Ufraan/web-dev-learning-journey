@@ -1,0 +1,24 @@
+text-align
+font-weight
+text-decoration
+line-height
+letter-spacing
+font-size
+
+1. text align
+  used for alignment (left, center, right or justified)
+
+2. font weight
+  used for bolding text in varioues weight values.
+
+3. text decoration
+  can be used for underlining, italics, strikethrough, etc.
+
+4. line height
+  used to format the distance between 2 or more lines.
+
+5. letter spacing
+  used to format the distance between 2 or more letters.
+
+6. fonts size
+  used to determine size of text.
