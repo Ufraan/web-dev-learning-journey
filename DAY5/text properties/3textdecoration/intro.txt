@@ -1,0 +1,9 @@
+it sets the appearance of decoritve lines on text like underline
+
+text-decoration: underline
+text-decoration: overline
+text-decoration: line-through
+
+text-decoration: red underline
+text-decoration: wavy overline
+text-deoration: dotted line-through
