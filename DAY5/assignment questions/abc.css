@@ -1,0 +1,76 @@
+body {
+    background-color: wheat;
+}
+
+.p {
+    color: #964B00;
+}
+/* BEGIN: Qs2 */
+.p {
+    color: #A52A2A;
+}
+/* END: Qs2 */
+
+/* BEGIN: Qs3 */
+body, h1, h2, h3, h4, h5, h6, .p {
+    text-align: center;
+}
+/* END: Qs3 */
+
+/* BEGIN: Qs4 */
+.p {
+    color: red;
+}
+
+.poet {
+    color: black;
+}
+/* END: Qs4 */
+
+/* BEGIN: Qs5 */
+body {
+    font-family: Georgia, serif;
+}
+/* END: Qs5 */
+
+/* BEGIN: Qs6 */
+a {
+    color: rgb(0, 128, 0);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/* END: Qs6 */
+
+/* BEGIN: Qs7 */
+button {
+    background-color: white;
+    color: blueviolet;
+}
+/* END: Qs7 */
+
+/* BEGIN: Qs8 */
+/* The hex code for black color is #000000 */
+textarea {
+    color: #000000;
+}
+/* END: Qs8 */
+
+/* BEGIN: Qs9 */
+.poem {
+    line-height: 30px;
+}
+/* END: Qs9 */
+
+/* BEGIN: Qs10 */
+.poem::selection {
+    background-color: transparent;
+    color: transparent;
+}
+
+.poem::selection::first-line {
+    text-decoration: underline;
+}
+/* END: Qs10 */
