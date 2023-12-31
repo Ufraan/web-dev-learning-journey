@@ -3,8 +3,13 @@
 }
 
 h1, h3 {
-    color: #B92B27;
+    color: #B92B27 !important
+    ;
 }
+
+h1, h3 {
+    color: #000000;
+    }
 
 #login {
     background-color: white;
