@@ -80,5 +80,18 @@ input[type="radio"]:checked + label{
     font-weight: bold;
 }
 
-.post:nth-of-type(n) {
-    background-color: blanchedalmond;}
+h1::first-letter {
+    color: pink;
+}
+
+#myId {
+    color: green;
+}
+
+p::first-line {
+    color: purple;
+}
+
+p::selection {
+    background-color: rgb(147, 206, 53);
+}
