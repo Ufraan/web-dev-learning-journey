@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+section {
+    margin-top: 100px;
+}
+
+div {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #7aa874;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+div:nth-of-type(2n) {
+    background-color: #f7db6a;
+}
+
+div:nth-of-type(3n) {
+    background-color: #ebb02d;
+}
+
+
+/* transform */
+
+#one {
+    transform: rotate(45deg);
+}
+
+/* scale */
+
+#two {
+    transform: scaleY(0.5);
+}
+
+
+/* translate */
+
+#three {
+    transform: translate(-100px);
+}
+
+/* skew */
+
+#four {
+    transform: skew(30deg);
+}
+
+
+#finve {
+    transform: rotate(30deg) translate(150px);
+}
