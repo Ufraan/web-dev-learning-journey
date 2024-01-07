@@ -1,14 +1,14 @@
 #container {
     height: 600px;
-    width: 80%;
+    width: 60%;
     background-color: azure;
     margin: 10px auto;
     border: 2px solid black;
     display:flex;
     flex-direction: row;
     justify-content: flex-start;
-    flex-wrap: wrap;
-    align-content:  baseline;
+    /* flex-wrap: wrap; */
+    /* align-content:  baseline; */
 }
 
 h1 {
@@ -17,6 +17,10 @@ h1 {
 
 #org {
     align-self: baseline;
+    /* flex-basis: 3em;
+    max-width: 400px;
+    max-height: ; */
+    flex-shrink: 1;
 }
 
 #container div {
@@ -25,4 +29,10 @@ h1 {
     color: white;
     text-align: center;
     font-size: 1.5em;
+}
+
+#blue {
+    /* flex-basis:300px; */
+    flex-shrink: 2;
+    font-size: 2em;
 }

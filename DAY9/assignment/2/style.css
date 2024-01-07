@@ -1,0 +1,28 @@
+#container {
+    height: 50px;
+    width: fit;
+    border: 2px solid teal;
+    border-radius: 10px;
+    background-color: pink;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+#content {
+    height: 50px;
+    width: 80px;
+    display: inline;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    line-height: 50px;
+    font-size: 24px;
+    border-radius: 10px
+
+}
+
+.logo {
+    margin-left: 20px;
+    align-items: center;
+}
