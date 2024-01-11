@@ -1,0 +1,17 @@
+animation in CSS:
+
+@keyfram myName {
+    from {font-size: 20px;}
+    to {font-size: 40px;}
+}
+
+
+animation: This is a CSS property that allows you to create animations on elements. It specifies the name of the animation that will be applied to the element.
+
+@keyframes: This is a CSS rule that defines a set of styles to be applied to an element at specific points during an animation. It is used to define the animation's behavior over time.
+
+myName: This is the name of the keyframe animation. It can be any valid identifier and is used to reference the animation later when applying it to an element.
+
+from: This is a keyword used within the @keyframes rule to define the starting point of the animation. In this case, it sets the initial font size of the element to 20 pixels.
+
+to: This is another keyword used within the @keyframes rule to define the ending point of the animation. It sets the final font size of the element to 40 pixels.

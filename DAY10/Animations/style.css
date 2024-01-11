@@ -1,0 +1,40 @@
+.box {
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+    border-radius: 15px;
+
+    animation: fontAnimation 2s ease-in 0s infinite alternate,
+               colorAnimation 3s ease-in 2s infinite alternate,
+               widthAnimation 3s ease-in 0s infinite alternate;
+}
+
+@keyframes fontAnimation {
+    from {
+        font-size: 20px;
+    }
+    to {
+        font-size: 40px;
+    }
+}
+
+@keyframes colorAnimation {
+    0% {
+        background-color: green;
+    }
+    50% {
+        background-color: blue;
+    }
+    100% {
+        background-color: red;
+    }
+}
+
+@keyframes widthAnimation {
+    from {
+        width: 10px;
+    }
+    to {
+        width: 400px;
+    }
+}
