@@ -1,3 +1,21 @@
+/**
+ * CSS code for animating a box with various animations.
+ * 
+ * The .box class defines the styling properties for the box element.
+ * It has a height of 100px, width of 300px, pink background color, and a border radius of 15px.
+ * 
+ * The box element is animated using three keyframe animations:
+ * - fontAnimation: Animates the font size of the box from 20px to 40px.
+ * - colorAnimation: Animates the background color of the box from green to blue to red.
+ * - widthAnimation: Animates the width of the box from 10px to 400px.
+ * 
+ * Each animation has a duration of 3 seconds and an ease-in timing function.
+ * The fontAnimation starts immediately, while the colorAnimation starts after 2 seconds,
+ * and the widthAnimation starts immediately.
+ * All animations are set to repeat infinitely and alternate between the initial and final states.
+ */
+
+ 
 .box {
     height: 100px;
     width: 300px;

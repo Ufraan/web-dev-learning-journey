@@ -1,3 +1,11 @@
+/**
+ * Styles:
+ * - The <h1> element has a yellow background, black border, and white text color by default.
+ * - When the device width is 400px, the <h1> element has a red background.
+ * - When the device width is at least 600px, the <h1> element has a green background.
+ * - When the device is in landscape orientation, the <h1> element has an aqua background and brown text color.
+ * - The <div> element has different dimensions and background colors based on the media queries.
+ */
 h1 {
     background-color: yellow;
     border: 2px solid black;

@@ -1,0 +1,30 @@
+/**
+ * CSS styles for a box element and its two child elements.
+ * 
+ * .box - Represents a box element with a height of 150px, width of 150px, black border of 2px, and pink background color.
+ * 
+ * .one - Represents the first child element of .box with an aquamarine background color, relative positioning, and a z-index of 1.
+ * 
+ * .two - Represents the second child element of .box with a darksalmon background color, relative positioning, and a bottom offset of 50px.
+ */
+
+.box {
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    background-color: pink;
+}
+
+.one {
+    background-color: aquamarine;
+    position: relative;
+    z-index: -3;
+}
+
+.two {
+    background-color: darksalmon;
+    position: relative;
+    bottom: 50px;
+    z-index: -2;
+}
+

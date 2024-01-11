@@ -1,0 +1,26 @@
+@media(max-width:720px){
+.header{
+    display: grid;
+    grid-column: 1/span12;
+}
+.navigation{
+    grid-column: 1/span12;
+    grid-row: 2;
+}
+.sidebar{
+    grid-column: 1/span3;
+    grid-row: 3/span9;
+}
+.main{
+    grid-column: 4/span9;
+    grid-row: 3/span9;
+}
+.ads{
+    grid-column: 1/span3;
+    grid-row: 12;
+}
+.footer{
+    grid-column: 4/span9;
+    grid-row: 12;
+}
+}
