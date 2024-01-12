@@ -1,4 +1,9 @@
+/** 
+ * CSS styles for a smiley face.
+ */
+
 .face {
+    /* Defines the width and height of the face */
     width:400px;
     height: 400px;
     background-color: #ffa511;
@@ -6,6 +11,7 @@
 }
 
 .mouth {
+    /* Defines the width, height, and position of the mouth */
     width: 200px;
     height: 75px;
     background-color: brown;
@@ -17,6 +23,7 @@
 }
 
 .eye1 {
+    /* Defines the width, height, and position of the first eye */
     width: 50px;
     height: 50px;
     background-color: black;
@@ -27,6 +34,7 @@
 }
 
 .eye2 {
+    /* Defines the width, height, and position of the second eye */
     width: 50px;
     height: 50px;
     background-color: black;

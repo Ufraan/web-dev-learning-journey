@@ -1,3 +1,31 @@
+/**
+ * This CSS file contains styling rules for various elements.
+ * 
+ * Styles for the 'div' element:
+ * - Sets the height to 200px
+ * - Sets the width to the width of the screen
+ * - Sets the background color to hotpink
+ * - Sets the border width to 5px, style to solid, and color to black
+ * - Sets the border radius to 10px
+ * - Sets the padding to 10px
+ * - Sets the top margin to 10px, bottom margin to 20px, and left margin to 10px
+ * 
+ * Styles for the 'h1' element:
+ * - Sets the width to 150%
+ * - Sets the border width to 2px, style to dashed, and color to green
+ * - Sets the text color to white
+ * - Centers the text within the element
+ * 
+ * Styles for the 'button' element:
+ * - Sets the border width to 2px, style to solid, and color to black
+ * - Sets the padding to 0px on the top and bottom, and 25px on the left and right
+ * - Sets the background color to yellow
+ * - Changes the background color to orange when hovered over
+ * - Changes the background color to white when clicked
+ * 
+ * Styles for all elements:
+ * - Sets the background color to rgb(48, 48, 48)
+ */
 div {
     height: 200px;
     width: screen-width;
