@@ -152,6 +152,7 @@ a {
     align-items: center;
     padding: 1rem 0 1rem 0;
     /* backdrop-filter: blur(555px); */
+    z-index: 10;
 }
 
 .sticky-nav-icons  {
@@ -229,7 +230,16 @@ a {
 
 .line {
     width: 90%;
-    height: 30%;
+    height: 40%;
     border-top: 1px solid #fff;
     opacity: 0.4;
 }
+
+.song-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 1px;
+    
+}
+
+
