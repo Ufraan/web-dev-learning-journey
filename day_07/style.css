@@ -29,7 +29,7 @@
 div {
     height: 200px;
     width: screen-width;
-    background-color: hotpink;
+    background-color: pink;
     /* border-width: 5px; 
     border-style: solid;
     border-color: black; */
@@ -59,7 +59,7 @@ button {
     /* padding-left: 25px;
     padding-right: 25px; */
     padding: 0px 25px;
-    background-color: yellow;
+    background-color: lemonchiffon;
 
 }
 button:hover {
